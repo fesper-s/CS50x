@@ -1,7 +1,7 @@
 <div align="center">
 <a><img height="120px" src="https://github.com/fesper-s/CS50/blob/main/assets/havard-logo.svg"></a>
 
-# CS50
+# CS50x
 </div>
 
 CS50's Introduction to Computer Science
