@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: bubble sort performs better when the numbers are already in sorted order.
+
+sort2 uses: merge sort
+
+How do you know?: merge sort is the fastest sort for random numbers.
+
+sort3 uses: selection sort
+
+How do you know?: selection sort is consistently slower for large datasets compared to merge sort.
