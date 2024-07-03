@@ -15,7 +15,7 @@ CS50's Introduction to Computer Science
 
 ## Week 3 - Algorithms ✅
 
-## Week 4 - Memory
+## Week 4 - Memory ✅
 
 ## Week 5 - Data Structures 
 
