@@ -13,7 +13,7 @@ CS50's Introduction to Computer Science
 
 ## Week 2 - Arrays ✅
 
-## Week 3 - Algorithms 
+## Week 3 - Algorithms ✅
 
 ## Week 4 - Memory
 
