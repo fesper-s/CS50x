@@ -19,7 +19,7 @@ CS50's Introduction to Computer Science
 
 ## Week 5 - Data Structures ✅
 
-## Week 6 - Python 
+## Week 6 - Python ✅
 
 ## Week 6.5 - Artificial Intelligence 
 
