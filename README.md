@@ -21,9 +21,9 @@ CS50's Introduction to Computer Science
 
 ## Week 6 - Python ✅
 
-## Week 6.5 - Artificial Intelligence 
+## Week 6.5 - Artificial Intelligence ✅
 
-## Week 7 - SQL 
+## Week 7 - SQL ✅
 
 ## Week 8 - HTML, CSS, JavaScript 
 
