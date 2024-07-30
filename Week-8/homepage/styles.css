@@ -1,49 +1,81 @@
 body {
-    background-color: #FFFBF8;
+    background-color: #eeeeee;
     color: #232323;
     font-family: "Montserrat", sans-serif;
-    font-size: 30px;
+    font-size: 18px;
+}
+
+body.dark-mode {
+    background-color: #232323;
+    color: #eeeeee;
 }
 
 .navbar {
-    border-bottom: 2px solid #C9C8C6;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
 }
 
-h1 {
-    padding-top: 10px;
-    padding-left: 10px;
+.navbar-brand {
+    color: #eeeeee;
+    padding: 10px;
     font-size: 24px;
 }
 
-.button-pages {
-    color: #232323;
+.nav-link {
+    color: #eeeeee;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
-    padding: 10px
+    padding: 10px;
 }
 
-.button-pages:hover {
-    background-color: #DFD5C5;
-    border: 1px solid #DFD5C5;
+.nav-link:hover {
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
     border-radius: 2px;
     color: #232323;
 }
 
+body.dark-mode .nav-light .navbar-brand,
+body.dark-mode .nav-light .nav-link {
+    color: #eeeeee;
+}
+
 .home-content {
-    display: inline-block;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
     padding: 2em;
 }
 
 .profile-pic {
-    border: 2px solid #C9C8C6;
-    border-radius: 2px;
-    width: 10em;
-    height: 10em;
+    border: 2px solid #232323;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
     margin-bottom: 1em;
 }
+
+body.dark-mode .profile-pic {
+    border: 2px solid #eeeeee;
+}
+
+.navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.btn-outline-light.ms-3 {
+    margin-top: 6px;
+}
+

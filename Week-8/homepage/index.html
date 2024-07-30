@@ -14,32 +14,67 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+         <!-- Meta tags -->
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta name="description" content="Portfolio of Fabrício Esper">
+
         <title>Home - Fabrício Esper</title>
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+                const toggleButton = document.getElementById('dark-mode-toggle');
+                toggleButton.addEventListener('click', () => {
+                    document.body.classList.toggle('dark-mode');
+
+                    if (document.body.classList.contains('dark-mode')) {
+                        toggleButton.textContent = 'Light Mode 🌞';
+                    } else {
+                        toggleButton.textContent = 'Dark Mode 🌕';
+                    }
+                });
+            });
+        </script>
     </head>
     <body>
-        <!-- Header -->
-        <div>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <h1>Fabrício Esper</h1>
-                    <div>
-                        <a class="button-pages" href="./index.html">Home</a>
-                        <a class="button-pages" href="./projects.html">Projects</a>
-                        <a class="button-pages" href="./education.html">Education</a>
-                        <a class="button-pages" href="./contact.html">Contact</a>
-                    </div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Fabrício Esper</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./education.html">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <button id="dark-mode-toggle" class="btn btn-outline-light ms-3" href="./about.html">Dark Mode 🌕</button>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
 
         <!-- Home page -->
-        <div class="home-content">
-            <div>
-                <img class="profile-pic" src="https://avatars.githubusercontent.com/u/67757208?v=4" alt="Fabrício Esper">
-            </div>
-            <div>
-                <h2>Hi, I'm Fabrício</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati similique iure fugiat adipisci qui beatae vitae nostrum minima sit voluptate impedit quaerat aut fuga nisi perferendis, explicabo, eaque quidem ipsa.</p>
+        <div class="container home-content text-center mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="profile-pic img-fluid rounded-circle" src="https://avatars.githubusercontent.com/u/67757208?v=4" alt="Fabrício Esper">
+                </div>
+                <div class="col-md-8">
+                    <h2>Hi, I'm Fabrício</h2>
+                    <p>I'm currently studying Software Engineering at 42 Rio and System Development at IBMR.</p>
+                </div>
             </div>
         </div>
     </body>
