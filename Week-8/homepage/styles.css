@@ -20,6 +20,10 @@ body.dark-mode {
     font-size: 24px;
 }
 
+.navbar-brand:hover {
+    color: #eeeeee;
+}
+
 .nav-link {
     color: #eeeeee;
     text-decoration: none;
@@ -47,6 +51,10 @@ body.dark-mode .nav-light .nav-link {
     flex-direction: column;
     text-align: center;
     padding: 2em;
+}
+
+.text-container {
+    text-align: left;
 }
 
 .profile-pic {
