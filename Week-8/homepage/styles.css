@@ -87,3 +87,25 @@ body.dark-mode .profile-pic {
     margin-top: 6px;
 }
 
+.dark-mode .card {
+    background-color: #6A757E;
+    border-color: #333A41;
+}
+
+.project-card {
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .btn-primary {
+    margin-top: auto;
+}
+
+.card-date {
+    font-size: 15px;
+    margin-top: -8px;
+}

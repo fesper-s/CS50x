@@ -5,12 +5,162 @@
         <!-- Include Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
+        
         <!-- Link style sheet -->
         <link href="styles.css" rel="stylesheet">
 
+        <!-- Link Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+         <!-- Meta tags -->
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta name="description" content="Portfolio of Fabrício Esper">
+
         <title>Projects - Fabrício Esper</title>
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+                const toggleButton = document.getElementById('dark-mode-toggle');
+                toggleButton.addEventListener('click', () => {
+                    document.body.classList.toggle('dark-mode');
+
+                    if (document.body.classList.contains('dark-mode')) {
+                        toggleButton.textContent = 'Light Mode 🌞';
+                    } else {
+                        toggleButton.textContent = 'Dark Mode 🌕';
+                    }
+                });
+            });
+        </script>
     </head>
     <body>
+        <!-- Navbar -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">Fabrício Esper</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./projects.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./education.html">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <button id="dark-mode-toggle" class="btn btn-outline-light ms-3">Dark Mode 🌕</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Projects page -->
+        <div class="container mt-5">
+            <h2 class="mb-4">Projects</h2>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">42-libft</h5>
+                            <p class="card-text">This project is our very first project as a student at 42. We needed to recode a few functions of the C standard library as well as some other utility functions that we will use during our whole cursus.</p>
+                            <a target="_blank" href="https://github.com/fesper-s/42-libft" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">42-get_next_line</h5>
+                            <p class="card-text">May it be a file, stdin, or even later a network connection, you will always need a way to read content line by line. It is time to start working on this function, which will be essential for your future projects.</p>
+                            <a target="_blank" href="https://github.com/fesper-s/42-get_next_line" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">42-born2beroot</h5>
+                            <p class="card-text">This project aims to introduce you to the wonderful world of virtualization.</p>
+                            <a target="_blank" href="https://github.com/fesper-s/42-born2beroot" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">42-ft_printf</h5>
+                            <p class="card-text">This project I recoded printf function. Learned what is and how to implement variadic functions.</p>
+                            <a target="_blank" href="https://github.com/fesper-s/42-ft_printf" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">42-pipex</h5>
+                            <p class="card-text">This project aims to understand a bit deeper two concepts: the redirections and the pipes.</p>
+                            <a target="_blank" href="https://github.com/fesper-s/42-pipex" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">42-so_long</h5>
+                            <p class="card-text">This project is a small 2D game with minilibx (École 42's graphic lib). Aims to learn about textures, sprites and tiles.</p>
+                            <a target="_blank" href="https://github.com/fesper-s/42-so_long" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 7 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">42-push_swap</h5>
+                            <p class="card-text">This project involves sorting data on a stack, with a limited set of instructions, and the smallest number of moves.</p>
+                            <a target="_blank" href="https://github.com/fesper-s/42-push_swap" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 8 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">42-Philosophers</h5>
+                            <p class="card-text">In this project, you will learn the basics of threading a process. You will see how to create threads and you will discover mutexes.</p>
+                            <a target="_blank" href="https://github.com/fesper-s/42-Philosophers" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 9 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">42-minishell</h5>
+                            <p class="card-text">The objective of this project is to create a simple shell in C.</p>
+                            <a target="_blank" href="https://github.com/fesper-s/42-minishell" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
     </body>
 </html>

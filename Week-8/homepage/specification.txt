@@ -1,0 +1,31 @@
+HTML Tags:
+1. <nav> - Used for navigation bars.
+2. <div> - Used for cointainer elements.
+3. <a> - Defines a hyperlink.
+4. <button> - Define a clickable button.
+5. <ul> - Used to create an unordered list.
+6. <li> - Used for list items.
+7. <h2> - Used for heading.
+8. <p> - Used for paragraphs.
+9. <h5> - Used for heading.
+10. <header> - Used for page headers.
+
+CSS Selectors:
+1. body - Styles applied to the body tag.
+2. navbar - Class selector for the navbar elements.
+3. .card - Class selector for the card elements.
+4. .dark-mode - Class selector for dark mode elements.
+5. .home-content - Classe selector for home content elements.
+
+CSS Properties:
+1. background-color - Sets the background color.
+2. color - Sets the text color.
+3. font-size - Sets the font size.
+4. font-family Sets the font family.
+5. padding - Sets the inner padding.
+
+JavaScript:
+Changes the page for it's dark mode theme when a custom button is clicked.
+
+Bootstrap:
+Integrated Bootstrap for responsive design and pre-built styles for navbar, cards, and buttons.
