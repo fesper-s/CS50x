@@ -27,6 +27,6 @@ CS50's Introduction to Computer Science
 
 ## Week 8 - HTML, CSS, JavaScript ✅
 
-## Week 9 - Flask 
+## Week 9 - Flask ✅
 
 ## Week 10 - Cybersecurity 
