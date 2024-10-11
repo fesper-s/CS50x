@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 void	path_error(char **path, char *cmd)
 {	
@@ -6,7 +6,7 @@ void	path_error(char **path, char *cmd)
 		error_display(cmd);
 	else
 	{
-		print_error("minishell: ");
+		print_error("sbash: ");
 		print_error(cmd);
 		print_error(": No such file or directory\n");
 		g_status = 127;
@@ -15,7 +15,7 @@ void	path_error(char **path, char *cmd)
 
 void	check_dir_error(char *str)
 {
-	print_error("minishell: ");
+	print_error("sbash: ");
 	print_error(str);
 	print_error(": is a directory\n");
 	g_status = 126;

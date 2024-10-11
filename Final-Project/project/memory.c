@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 char	**ft_strdupp(char **str)
 {

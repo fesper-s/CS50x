@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 int	search_varenv(char *cmds, t_env *env, int j)
 {

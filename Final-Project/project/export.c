@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 void	add_to_env(char *cmd, t_env **env)
 {

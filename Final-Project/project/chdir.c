@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 void	return_dir(t_env **env, int j)
 {
@@ -90,7 +90,7 @@ char	*no_argincd(char **env)
 	}
 	if (!home)
 	{
-		print_error("minishell: cd: HOME not set\n");
+		print_error("sbash: cd: HOME not set\n");
 		g_status = 1;
 	}
 	else

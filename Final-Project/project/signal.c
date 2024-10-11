@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 void	handle_sigint(int signum)
 {

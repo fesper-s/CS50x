@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 int	init_files(t_line **line)
 {

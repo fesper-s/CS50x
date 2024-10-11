@@ -1,5 +1,5 @@
-#ifndef MINISHELL_H
-# define MINISHELL_H
+#ifndef SBASH_H
+# define SBASH_H
 
 	# include <stdio.h>
 	# include <unistd.h>
@@ -40,7 +40,7 @@
 
 	void	cmd_process(t_line **line, t_env **env);
 	int		organize_line(t_line **line);
-	void	minishell(char **envp);
+	void	sbash(char **envp);
 	int		check_files(char **cmds);
 	int		check_operator(t_line **line, char **cmds, int i);
 	void	check_builtins(t_line **line, t_env **env, int size);

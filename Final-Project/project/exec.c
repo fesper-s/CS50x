@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 void	handle_cmd(t_line **line, t_env **env)
 {
@@ -6,7 +6,7 @@ void	handle_cmd(t_line **line, t_env **env)
 	print_insert(line);
 	if (!(*line)->cmds[0] && !(*line)->insert_op && !(*line)->infile && \
 		!(*line)->outfile)
-		printf("minishell: : command not found\n");
+		printf("sbash: : command not found\n");
 	exit(EXIT_SUCCESS);
 }
 

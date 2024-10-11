@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 char	*check_for_path(char **env, char *env_path)
 {

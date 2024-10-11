@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 int	g_status;
 
@@ -46,7 +46,7 @@ int	organize_line(t_line **line)
 	return (1);
 }
 
-void	minishell(char **envp)
+void	sbash(char **envp)
 {
 	t_line	*line;
 	t_env	*env;
@@ -57,7 +57,7 @@ void	minishell(char **envp)
 	{
 		line = ft_lst_new(NULL);
 		signals();
-		line->cmd = readline("minishell % ");
+		line->cmd = readline("sbash % ");
 		if (line->cmd)
 			add_history(line->cmd);
 		else

@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 int	check_files(char **cmds)
 {

@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 void	expanding(t_line **line, t_env *env, int j, int index)
 {

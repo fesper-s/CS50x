@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 void	ft_lst_add_back(t_line **lst, t_line *new)
 {

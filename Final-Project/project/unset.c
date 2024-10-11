@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 void	attr_buffer(char ***buffer, char *cmd, char **env)
 {

@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 int	is_flag(char **cmds, int i)
 {

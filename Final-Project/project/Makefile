@@ -1,6 +1,6 @@
-NAME	= minishell
+NAME = sbash
 
-CFLAGS	= -g -Wall -Wextra -Werror
+CFLAGS = -g -Wall -Wextra -Werror
 
 CPPFLAGS = -I /opt/homebrew/Cellar/readline/8.2.13/include
 
@@ -11,7 +11,7 @@ CPPFLAGS += -I ~/.brew/opt/readline/include
 LDFLAGS += -L ~/.brew/opt/readline/lib
 
 SRCS	= ./main.c ./error.c ./more_error.c ./signal.c ./utils.c \
-		  ./minishell.c ./check.c ./init_struct.c ./list_utils.c ./builtins.c \
+		  ./sbash.c ./check.c ./init_struct.c ./list_utils.c ./builtins.c \
 		  ./echo.c ./chdir.c ./export.c ./unset.c ./builtins_utils.c \
 		  ./memory.c ./init_expand.c ./expand.c ./expand_utils.c ./exec.c \
 		  ./heredoc.c ./file_utils.c ./check_utils.c

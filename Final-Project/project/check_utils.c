@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 void	rm_insert_op(t_line **line, char **cmds, int i)
 {

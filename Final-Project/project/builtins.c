@@ -1,4 +1,4 @@
-#include "minishell.h"
+#include "sbash.h"
 
 void	smart_trim(t_line **line, int index)
 {
