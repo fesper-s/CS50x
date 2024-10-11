@@ -3,6 +3,17 @@
 #### Description:
 sbash is a simplified implementation of a Unix-like shell, developed as part of the final project for the CS50x course. This project aims to replicate basic shell functionalities, such as command execution, redirection handling, and environment variable management. The code is written in C, with a focus on a modular structure to enhance understanding, maintainability, and ease of debugging. This shell was developed with educational purposes in mind, but it aims to deliver a functional tool, capable of handling essential shell operations.
 
+### Requirements
+MacOS, use the Homebrew package manager:
+```bash
+brew install readline
+```
+
+Ubuntu:
+```bash
+ sudo apt install libreadline-dev 
+```
+
 ### Implemented Features:
 
 - **Built-in commands**: `cd`, `echo`, `unset`, `export`, providing basic shell capabilities.
