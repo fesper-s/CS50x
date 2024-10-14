@@ -29,4 +29,4 @@ CS50's Introduction to Computer Science
 
 ## Week 9 - Flask ✅
 
-## Week 10 - Cybersecurity 
+## Week 10 - Cybersecurity ✅
