@@ -6,6 +6,7 @@
 
 CS50's Introduction to Computer Science
 
+![CS50x Certification](https://certificates.cs50.io/13074a85-cbb2-4bc1-9254-b7e9e8d07f66.png?size=letter)
 
 ## Week 0 - Scratch ✅
 
